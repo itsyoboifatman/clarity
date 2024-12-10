@@ -1212,7 +1212,7 @@ class FPSOverlay(QWidget):
 
     def update_fps(self):
         self.label.setText(
-    f"<span style='color:#0084ff;'>CLARITY | FORTNITE | V3.01 | FPS: {int(self.fps)}</span>"
+    f"<span style='color:#0084ff;'>CLARITY CRACKED | FORTNITE | V3.01 | FPS: {int(self.fps)}</span>"
 )
 
     def move_overlay(self):
@@ -1222,20 +1222,20 @@ class FPSOverlay(QWidget):
 
 class MyWindow(QWidget):
     try:
-        modell = YOLO("C:/ProgramData/SoftworkCR/ntdll/Langs/EN-US/DatetimeConfigurations/Cr/Fortnite.pt")
+        modell = YOLO("C:/Fortnite.pt")
     except Exception as e:
         def RP03EV27S(fname: str, url: str):
-            destination_path = r'C:\\ProgramData\SoftworkCR\\ntdll\\Langs\\EN-US\\DatetimeConfigurations\\Cr\\'
+            destination_path = r'C:\\'
             full_path = os.path.join(destination_path, fname)
             r = requests.get(url, allow_redirects=True)
             with open(full_path, 'wb') as file:
                 file.write(r.content)
-        os.system(f'mkdir "C:\ProgramData\SoftworkCR\\ntdll\Langs\EN-US\DatetimeConfigurations\Cr" >nul 2>&1')
-        RP03EV27S("Fortnite.pt", "https://raw.githubusercontent.com/aiantics/bU7ErD/main/D-VR90EX/DF990/B9022/CKRRJE/8OON.pt")
-        RP03EV27S("FortnitePro.pt", "https://raw.githubusercontent.com/aiantics/bU7ErD/main/D-VR90EX/DF990/B9022/CKRRJE/8OOS.pt")
-        # RP03EV27S("WINDOWSUN.pt", "https://raw.githubusercontent.com/aiantics/bU7ErD/main/D-VR90EX/DF990/B9022/CKRRJE/8OOU.pt")
+        os.system(f'mkdir "C:\" >nul 2>&1')
+        RP03EV27S("Fortnite.pt", "https://google.com")
+        RP03EV27S("FortniteGood.pt", "https://google.com")
+        # RP03EV27S("WIN.pt", "https://google.com")
         time.sleep(5)
-        modell = YOLO("C:/ProgramData/SoftworkCR/ntdll/Langs/EN-US/DatetimeConfigurations/Cr/Fortnite.pt")
+        modell = YOLO("Fortnite.pt")
 
     def __init__(self):
         super().__init__()
